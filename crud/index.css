@@ -1,0 +1,128 @@
+.first-row {
+    width: 100%;
+    height: 800px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+}
+
+.empty-col {
+    width: 100%;
+    height: 800px;
+    background-color: aquamarine;
+}
+
+.form-col {
+    width: 100%;
+    height: 800px;
+    /* background-color: #ffff; */
+    display: flex;
+    align-items: center;
+}
+
+.form-head {
+    width: 100%;
+    height: 410px;
+    background-color: #ffff;
+    /* border: 1px solid grey; */
+    border-radius: 6px;
+    /* box-shadow: 10px 10px 10px 10px grey; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.FORM {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    justify-content: center;
+
+}
+
+.creat-acc {
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+#user-name {
+    width: 400px;
+    height: 35px;
+    border: 1px solid;
+    border-radius: 4px;
+    text-indent: 10px;
+    margin-top: 5px;
+    /* box-shadow: 1px 1px 1px 1px  grey; */
+    background-image: url(asset/user-solid.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 12px;
+    
+}
+
+#email {
+    width: 400px;
+    height: 35px;
+    border: 1px solid;
+    border-radius: 4px;
+    text-indent: 10px;
+    margin-top: 5px;
+    background-image: url(asset/envelope-regular.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 12px;
+}
+
+#password {
+    width: 400px;
+    height: 35px;
+    border: 1px solid;
+    border-radius: 4px;
+    text-indent: 10px;
+    margin-top: 5px;
+    background-image: url(asset/eye-regular.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 12px;
+}
+
+#confirm-password {
+    width: 400px;
+    height: 35px;
+    border: 1px solid;
+    border-radius: 4px;
+    text-indent: 10px;
+    margin-top: 5px;
+    background-image: url(asset/eye-regular.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 12px;
+}
+
+.txt-name {
+    margin-right: 315px;
+}
+
+.txt-email {
+    margin-right: 360px;
+}
+
+.txt-password {
+    margin-right: 340px;
+}
+
+.txt-confirm-password {
+    margin-right: 285px;
+}
+
+#signup-btn {
+    color: #ffff;
+    width: 400px;
+    height: 40px;
+    background-color: blue;
+    border: 1px solid;
+    border-radius: 4px;
+}
+.already-txt{
+    text-align: center;
+}
